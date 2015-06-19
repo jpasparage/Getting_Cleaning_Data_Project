@@ -18,4 +18,12 @@ Per the instructions of the project, the script 'run_analysis.r' does the follow
 9. Combine 'x', 'subject', and 'y' data to one data frame. Merge 'Activity' data names to the table.
 10. Aggregate the data average of each variable for each activity and each subject. Write the 'tidy' data to a file 'tidy.txt'.
 
-#Data
+#Raw Data
+subject_test.txt - contains all the subjects in order for the test set
+subject_train.txt - contains all the subjects in order for the training set
+activity_labels.txt - contains the descriptive labels for the activities in y_test and y_train
+y_test.txt - contains all the activity codes in order for the test set
+y_train.txt - contains all the activity codes in order for the training set
+features.txt - contains the row labels for the variables in x_test
+x_test.txt - contains all numerical data measured from the electric devices
+x_train.txt
